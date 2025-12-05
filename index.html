@@ -1,14 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>My Site</title>
+    <title>Video Host bằng GitHub Pages</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f2f2f2;
+            padding: 20px;
+        }
+        .container {
+            max-width: 720px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        video {
+            width: 100%;
+            border-radius: 10px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Website GitHub Pages của Long đây!</h1>
-    <p>Nếu thấy dòng này tức là site đã chạy đúng rồi!</p>
+    <div class="container">
+        <h1>Video được host bằng GitHub Pages</h1>
+
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+            Trình duyệt của bạn không hỗ trợ video.
+        </video>
+    </div>
 </body>
 </html>
-<video width="600" controls>
-    <source src="videos/video.mp4" type="video/mp4">
-</video>
