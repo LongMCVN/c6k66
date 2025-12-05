@@ -2,7 +2,7 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>Video Host bằng GitHub Pages</title>
+    <title>Host 3 Video + 1 Audio</title>
     <style>
         body {
             font-family: Arial;
@@ -11,29 +11,49 @@
         }
         .container {
             max-width: 720px;
-            margin: auto;
             background: #fff;
+            margin: auto;
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
-        h1 {
-            text-align: center;
-        }
-        video {
+        video, audio {
             width: 100%;
+            margin-top: 20px;
             border-radius: 10px;
+        }
+        h2 {
+            text-align: center;
         }
     </style>
 </head>
+
 <body>
     <div class="container">
-        <h1>Video được host bằng GitHub Pages</h1>
+        <h2>3 Video + 1 Audio Hosted on GitHub</h2>
 
+        <!-- Video 1 -->
+        <h3>Video 1</h3>
         <video controls>
             <source src="video.mp4" type="video/mp4">
-            Trình duyệt của bạn không hỗ trợ video.
         </video>
+
+        <!-- Video 2 -->
+        <h3>Video 2</h3>
+        <video controls>
+            <source src="vcvb.mp4" type="video/mp4">
+        </video>
+
+        <!-- Video 3 -->
+        <h3>Video 3</h3>
+        <video controls>
+            <source src="video2.mp4" type="video/mp4">
+        </video>
+
+        <!-- Audio -->
+        <h3>Nhạc nền</h3>
+        <audio controls>
+            <source src="nhac.mp3" type="audio/mpeg">
+        </audio>
     </div>
 </body>
 </html>
